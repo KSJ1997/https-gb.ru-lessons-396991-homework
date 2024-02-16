@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS SchoolDB;
+
+USE SchoolDB;
+
+CREATE TABLE IF NOT EXISTS Courses (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    duration INT
+);
